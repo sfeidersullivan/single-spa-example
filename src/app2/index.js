@@ -7,10 +7,10 @@ export const bootstrap = () => fetch('/api/users/0')
 
 export const mount = () => Promise.resolve()
   .then(() => {
-    document.getElementById('user-app').innerHTML =
-      <div>
-        Hello ${user.name}!
-      </div>
+    document.getElementById('root-app').innerHTML =
+      `<div>
+        Hello !
+      </div>`
   })
 
 export const unmount = () => Promise.resolve()
