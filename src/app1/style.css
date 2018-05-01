@@ -1,6 +1,13 @@
 h2{
   display: flex;
   justify-content: center;
-  padding: 100px;
+  align-items: center;
+  padding: 40px;
   border-style: dashed;
+}
+
+img{
+  width: 100px;
+  height: 100px;
+  padding-left: 20px;
 }
